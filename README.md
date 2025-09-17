@@ -6,6 +6,12 @@
 
 > A log parser application with a backend built using Node.js and TypeScript that converts a log file in a specific format to a JSON file. The log file format includes a timestamp, log level, transaction ID, and log information. The frontend, built using React and Tailwind CSS, provides a UI for uploading the log file and downloading the parsed JSON file. The UI includes a button for uploading the file and an alert to show API error messages. The build tool used is Vite.
 
+## Live Demo
+
+Check out the live project here:  
+[Log Parser Live](https://log-parser-nodejs-dgqv73ohq-tanushka-kashyaps-projects.vercel.app/)
+
+
 ## Screenshots
 
 ![image](./Log.png)
