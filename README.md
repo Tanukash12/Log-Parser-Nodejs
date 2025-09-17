@@ -1,5 +1,5 @@
 
-# Welcom to Log Parser! 👋
+# Welcome to Log Parser! 👋
 
 
 ## About
@@ -8,21 +8,18 @@
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/52573685/217621278-c4c6fb23-b2ec-401f-8fad-5c5969e60bd7.png)
+![image](./Log.png)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/chinmayakain/twitter-ui-build.git
+  git clone https://github.com/Tanukash12/Log-Parser-Nodejs
 ```
 
 Go to the project directory
 
-```bash
-  cd airbnb-clone-build
-```
 Navigate to client
 
 ```bash
