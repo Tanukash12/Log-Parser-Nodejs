@@ -8,7 +8,7 @@
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/52573685/217621278-c4c6fb23-b2ec-401f-8fad-5c5969e60bd7.png)
+![image](./Log.png)
 
 ## Run Locally
 
