@@ -65,7 +65,7 @@ Start the server
 
 ## Authors
 
-- [@chinmayanaik](https://www.github.com/chinmayakain)
+- [@Tanukash12](https://github.com/Tanukash12)
 
 
 ## Features or Limitations
