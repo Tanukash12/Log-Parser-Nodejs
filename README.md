@@ -1,5 +1,5 @@
 
-# Welcom to Log Parser! 👋
+# Welcome to Log Parser! 👋
 
 
 ## About
