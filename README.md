@@ -15,14 +15,11 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/chinmayakain/twitter-ui-build.git
+  git clone https://github.com/Tanukash12/Log-Parser-Nodejs
 ```
 
 Go to the project directory
 
-```bash
-  cd airbnb-clone-build
-```
 Navigate to client
 
 ```bash
