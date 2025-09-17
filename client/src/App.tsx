@@ -45,22 +45,18 @@ const App: FC = (props: Props) => {
         }
 
         const formData = new FormData();
-        formData.append("fileName", modifiedFileName);
-        formData.append(modifiedFileName, file);
+        formData.append("file", file);
         setLoading(true);
         try {
             const res = await fetch(
-                `${
-                    import.meta.env.VITE_API_BASE_URL
-                }/api/logs/logParser/${modifiedFileName}`,
-                {
-                    method: "POST",
-                    headers: {},
-                    body: formData,
-                }
+                        `${import.meta.env.VITE_API_BASE_URL}/api/logParser/file`, {
+                        method: "POST",
+                        body: formData,
+                        
+                    }
             );
             const response = await res.json();
-            setLoading(false);
+            setLoading(false); 
             setJsonData(response);
         } catch (err) {
             setLoading(false);

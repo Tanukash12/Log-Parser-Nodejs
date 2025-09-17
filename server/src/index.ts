@@ -4,7 +4,7 @@ import { Server } from "http";
 import { config } from "dotenv";
 import cors from "cors";
 
-import router from "./router";
+import router from "./routes/router";
 import errorHandler from "./middlewares/errorHandler";
 
 config();
@@ -12,7 +12,7 @@ const app: Application = express();
 const PORT: Number = Number(process.env.PORT) || 3000;
 
 const corsOptions = {
-    origin: "http://127.0.0.1:5173",
+    origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
     optionsSuccessStatus: 200,
 };
 
